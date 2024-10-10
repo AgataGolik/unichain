@@ -89,7 +89,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract $CONTRACT_NAME is ERC20 {
     constructor() ERC20("$TOKEN_NAME", "$TOKEN_SYMBOL") {
-        _mint(msg.sender, 100000 * (10 ** decimals()));
+        _mint(msg.sender, 210000000 * (10 ** decimals()));
     }
 }
 EOL
